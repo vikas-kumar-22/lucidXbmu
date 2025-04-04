@@ -1,0 +1,14 @@
+{
+    "testimonials": [
+        {
+            "name": "John Doe",
+            "feedback": "This platform helped me overcome my anxiety issues.",
+            "image": "https://via.placeholder.com/100"
+        },
+        {
+            "name": "Jane Smith",
+            "feedback": "Incredible support for body image improvement.",
+            "image": "https://via.placeholder.com/100"
+        }
+    ]
+}

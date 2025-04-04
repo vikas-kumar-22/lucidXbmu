@@ -1,0 +1,29 @@
+{
+    "offerings": [
+        {
+            "image": "https://static.vecteezy.com/system/resources/thumbnails/027/785/905/small_2x/pill-icon-in-thin-line-black-circle-frames-png.png",
+            "title": "Addiction",
+            "description": "Support for overcoming addictive behaviors"
+        },
+        {
+            "image": "https://static.vecteezy.com/system/resources/previews/007/547/265/original/stress-management-skills-line-icon-vector.jpg",
+            "title": "Anger management",
+            "description": "Techniques to control and manage anger"
+        },
+        {
+            "image": "https://thumbs.dreamstime.com/b/child-neglect-rgb-color-icon-avoidant-parent-poor-family-upset-kid-sad-children-irresponsible-adult-maltreatment-domestic-abuse-207358683.jpg",
+            "title": "Abuse and neglect",
+            "description": "Healing from past trauma and abuse"
+        },
+        {
+            "image": "./images/depression-mental-health-high-anxiety-vector-conceptual-illustration-logo-visualized-by-man-face-profile-dark-clouds-his-head_570429-3436.avif",
+            "title": "Anxiety",
+            "description": "Tools to cope with and reduce anxiety"
+        },
+        {
+            "image": "https://static.vecteezy.com/system/resources/previews/001/957/435/original/human-portrait-one-line-drawing-body-anatomy-hand-drawn-minimalism-vector.jpg",
+            "title": "Body Image",
+            "description": "Improving self-perception and body positivity"
+        }
+    ]
+}

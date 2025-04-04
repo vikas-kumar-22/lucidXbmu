@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffc107; /* Optional background color */
+}
+
+.content {
+    text-align: center;
+}
+
+.content-body h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.content-body a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #1F274C;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.content-body a:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+    <script>
+        function loadContent(id, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => document.getElementById(id).innerHTML = data)
+                .catch(error => console.error('Error loading content:', error));
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            loadContent('header', 'header.html');
+            loadContent('footer', 'footer.html');
+        });
+
+    </script>
+</head>
+<body>
+    <div class="content">
+        <div class="content-body">
+            <h1>Thank You</h1>
+            <a href="./homepage.html">Home Page</a>
+        </div>
+    </div>
+</body>
+</html>
